@@ -7,7 +7,7 @@ from mangum import Mangum
 
 app = FastAPI()
 handler = Mangum(app)
-openai.api_key ="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"
+openai.api_key = "key"
 templates = Jinja2Templates(directory="templates")
 
 chat_responses = []
